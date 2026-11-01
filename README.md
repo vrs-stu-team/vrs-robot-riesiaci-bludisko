@@ -28,7 +28,7 @@ Na konci porovnáme úspešnosť navigácie, čas prejazdu a opakovateľnosť po
 | 1x pasívne otočné koliesko   		| [Otočné koliesko pre stavebnice autíčok](https://techfun.sk/produkt/otocne-koliesko-pre-stavebnice-auticok/)  |
 | Batérie   						| [Box na batérie 6V / 4xAA s krytom a vypínačom](https://techfun.sk/produkt/box-na-baterie-6v-4xaa-s-krytom-a-vypinacom/)  |
 | Napäťové regulátory   			| [5V 3A step down converter ZDR344 USB](https://techfun.sk/produkt/menic-napatia-nadol-s-dvojitym-usb-konektorom-5v-3a/) / [Step-down menič napätia s dvojitým USB výstupom 5V 3A](https://techfun.sk/produkt/step-down-menic-napatia-s-dvojitym-usb-vystupom-5v-3a/) |
-| 1x Podvozok  						| Zostrijume sami   |
+| 1x Podvozok  						| Zostrojíme sami   |
 
 ## Navrhnúť elektromechanické rozhranie
 
