@@ -57,7 +57,7 @@ Zároveň bude prijímať signály z enkodérov na meranie otáčok motorov a pr
 
 | Meno a priezvisko     | Technická časť projektu |
 | --------------------- | ----------------------- |
-| **Mykhailo Plys**     | Bude doplnené neskôr.   |
+| **Mykhailo Plys**     | Navigation, Motion control, Encoder processing   |
 | **Peter Simon Kolar** | Hardvare assembly, Distance sensing, Motor control   |
 | **Marek Kotian**      | Path planning, Maze mapping, Distance sensing   |
 | **Dmytro Petrishko**  | Bude doplnené neskôr.   |
