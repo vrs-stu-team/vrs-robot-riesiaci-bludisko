@@ -32,11 +32,11 @@ Na konci porovnáme úspešnosť navigácie, čas prejazdu a opakovateľnosť po
 
 ## Navrhnúť elektromechanické rozhranie
 
-Snímače vzdialenosti budú umiestnené v prednej časti robota a orientované dopredu, diagonálne doprava a diagonálne doľava. 
+ - Snímače vzdialenosti budú umiestnené v prednej časti robota a orientované dopredu, diagonálne doprava a diagonálne doľava. 
 DC motory budú nezávisle riadené, aby sa robot mohol otáčať aj na mieste.
-Motory majú napätie 6 V, preto nepotrebujú menič napätia medzi batériou a driverom. 
+ - Motory majú napätie 6 V, preto nepotrebujú menič napätia medzi batériou a driverom. 
 Napájanie z batérie bude taktiež pripojené k mikrokontroléru STM32 NUCLEO-F303K8 pomocou meniča napätia na 5 V. 
-Mikrokontrolér bude následne napájaný cez USB alebo prípadne priamo cez pin 5V.
+ - Mikrokontrolér bude následne napájaný cez USB alebo prípadne priamo cez pin 5V.
 Mikrokontrolér bude riadiť motory pomocou PWM signálov, ktoré budú vstupovať do drivera. 
 Zároveň bude prijímať signály z enkodérov na meranie otáčok motorov a prejdenej vzdialenosti.
 	
