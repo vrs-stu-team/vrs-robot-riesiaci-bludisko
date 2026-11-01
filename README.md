@@ -4,38 +4,54 @@ Tímový projekt VRS – autonómny mobilný robot so STM32, mapovaním bludiska
 
 ## Opis projektu
 
-Cieľom je zostrojiť mobilného robota riadeného mikrokontrolérom STM32, ktorý bude samostatne prechádzať fyzickým bludiskom. Pomocou snímačov vzdialenosti bude zisťovať polohu stien a vyberať si smer pohybu.
-
-Pri prvom prejazde si robot bude zaznamenávať informácie o bludisku. Následne sa pokúsi prejsť k cieľu kratšou trasou. Na konci porovnáme úspešnosť navigácie, čas prejazdu a opakovateľnosť pohybu.
+Navrhnúť a zostrojiť autonómneho mobilného robota, ktorý pomocou snímačov vzdialenosti rozpoznáva steny, samostatne prechádza bludiskom, vytvára jeho mapu a následne vypočíta kratšiu trasu k cieľu.
+Na konci porovnáme úspešnosť navigácie, čas prejazdu a opakovateľnosť pohybu. Riadenie a rozhodovanie bude zabezpečovať mikrokontrolér STM32.
 
 ## Čo plánujeme urobiť
 
-- Zostaviť podvozok a rozbehnúť motory.
+- Navrhnúť elektromechanické rozhranie a objednať súčiastky.
+- Zostaviť podvozok a zapojiť elektromechanické rozhranie.
 - Pripojiť snímače vzdialenosti k STM32.
 - Naprogramovať pohyb a rozhodovanie na križovatkách.
 - Ukladať informácie o prejdenom bludisku.
 - Vyskúšať kratšiu trasu a porovnať výsledky.
 
+
 ## Predpokladaný hardvér
 
-- Vývojová doska STM32 (presný typ ešte vyberieme)
-- Motory a driver motorov
-- Snímače vzdialenosti
-- Podvozok, kolesá a napájanie
+- 1x Vývojová doska STM32F303K8
+- 2x Hnacie kolesá 					(Kolesá pre stavebnice áut rôzne typy)
+- 2x Nezávisle riadené DC motormi	(DFROBOT TT Motor so zabudovaným enkóderom)
+- 1x Driver pre DC motory 			(Motor driver TB6612FNG / Motor driver 3V – 10V dual H-bridge DRV8833)
+- 3x Snímače vzdialenosti			(Laserový senzor vzdialenosti VL53L0x v2 / Laserový senzor vzdialenosti - VL53L1X)
+- 1x pasívne otočné koliesko		(Otočné koliesko pre stavebnice autíčok)
+- Batérie 							(Box na batérie 6V / 4xAA s krytom a vypínačom)
+- Napäťové regulátory				(5V 3A step down converter ZDR344 USB) 
+- 1x Podvozok						(Zostrijume sami)
 
-Konkrétne súčiastky a zapojenie doplníme po výbere hardvéru.
+## Popis uloh
+
+Hardware assembly - zapojenie hardvaru 
+Motor control – riadenie motorov.
+Encoder processing – spracovanie údajov z enkodérov.
+Distance sensing – komunikácia so snímačmi vzdialenosti.
+Wall detection – rozpoznávanie stien.
+Maze mapping – vytváranie mapy bludiska.
+Navigation – rozhodovanie o ďalšom pohybe.
+Path planning – výpočet trasy k cieľu.
+Motion control – vykonávanie pohybov a otáčania.
+
 
 ## Členovia tímu
 
 | Meno a priezvisko     | Technická časť projektu |
 | --------------------- | ----------------------- |
 | **Mykhailo Plys**     | Bude doplnené neskôr.   |
-| **Peter Simon Kolar** | Bude doplnené neskôr.   |
+| **Peter Simon Kolar** | Hardvare assembly, Distance sensing, Motor control   |
 | **Marek Kotian**      | Bude doplnené neskôr.   |
 | **Dmytro Petrishko**  | Bude doplnené neskôr.   |
 
-Rozdelenie úloh doplníme po dohode v tíme.
 
 ## Aktuálny stav
 
-Zatiaľ máme vybranú tému projektu. Ďalším krokom je dohodnúť sa na komponentoch a rozdelení práce.
+Zkonstruovana je specifikacia pre projekt a ulohy su rozdelene medzi clenmy.
