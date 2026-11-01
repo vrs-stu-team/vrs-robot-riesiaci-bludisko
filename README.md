@@ -59,7 +59,7 @@ Zároveň bude prijímať signály z enkodérov na meranie otáčok motorov a pr
 | --------------------- | ----------------------- |
 | **Mykhailo Plys**     | Bude doplnené neskôr.   |
 | **Peter Simon Kolar** | Hardvare assembly, Distance sensing, Motor control   |
-| **Marek Kotian**      | Bude doplnené neskôr.   |
+| **Marek Kotian**      | Path planning, Maze mapping, Distance sensing   |
 | **Dmytro Petrishko**  | Bude doplnené neskôr.   |
 
 
